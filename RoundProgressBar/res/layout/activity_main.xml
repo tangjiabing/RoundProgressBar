@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.view.RoundProgressBar
+        android:id="@+id/roundProgressBar"
+        app:style="stroke"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:roundColor="#e7e7e7"
+        app:roundProgressColor="#ff6733"
+        app:roundWidth="8dp"
+        app:textColor="#ff6733"
+        app:textSize="24dp" />
+
+</LinearLayout>
